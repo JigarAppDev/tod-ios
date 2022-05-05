@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>773097559529-ct8uc44ll0bposh4dda4bf9th2kekm43.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.773097559529-ct8uc44ll0bposh4dda4bf9th2kekm43</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>773097559529-0ofdhiv8u2jhpig8pqfqdkcccbii5rqf.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCqQMPcDZRRtRQ2hXtyhGhLY8G-YhRBBbY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>773097559529</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.app.reveralto</string>
+	<key>PROJECT_ID</key>
+	<string>t4u-prod</string>
+	<key>STORAGE_BUCKET</key>
+	<string>t4u-prod.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:773097559529:ios:9f4ac5ae5108931eb62778</string>
+</dict>
+</plist>

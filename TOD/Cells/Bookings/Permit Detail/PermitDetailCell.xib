@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Light.ttf">
+            <string>Roboto-Light</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="PermitDetailCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="PermitDetailCell" id="KGk-i7-Jjw" customClass="PermitDetailCell" customModule="TOD" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aph-81-lbV">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m6V-Je-32s">
+                                <rect key="frame" x="0.0" y="16.5" width="7" height="7"/>
+                                <color key="backgroundColor" red="0.17254901959999999" green="0.48627450979999998" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="7" id="9ol-uT-bdb"/>
+                                    <constraint firstAttribute="height" constant="7" id="x30-hB-85W"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Driving license: Driving license " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3zy-an-Xp1">
+                                <rect key="frame" x="17" y="0.0" width="293" height="40"/>
+                                <fontDescription key="fontDescription" name="Roboto-Light" family="Roboto" pointSize="14"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="3zy-an-Xp1" secondAttribute="trailing" constant="10" id="C8F-p9-Rus"/>
+                            <constraint firstItem="3zy-an-Xp1" firstAttribute="leading" secondItem="m6V-Je-32s" secondAttribute="trailing" constant="10" id="Zum-uG-B97"/>
+                            <constraint firstItem="3zy-an-Xp1" firstAttribute="top" secondItem="aph-81-lbV" secondAttribute="top" id="asp-na-DIy"/>
+                            <constraint firstItem="m6V-Je-32s" firstAttribute="top" secondItem="aph-81-lbV" secondAttribute="top" constant="16.5" id="qUU-Dg-OoZ"/>
+                            <constraint firstAttribute="bottom" secondItem="3zy-an-Xp1" secondAttribute="bottom" id="v8g-cx-O15"/>
+                            <constraint firstItem="m6V-Je-32s" firstAttribute="leading" secondItem="aph-81-lbV" secondAttribute="leading" id="wQn-Q9-dPh"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="aph-81-lbV" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="7Kv-g5-3A7"/>
+                    <constraint firstItem="aph-81-lbV" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Q2w-uD-XCt"/>
+                    <constraint firstAttribute="trailing" secondItem="aph-81-lbV" secondAttribute="trailing" id="l0a-hv-3yf"/>
+                    <constraint firstAttribute="bottom" secondItem="aph-81-lbV" secondAttribute="bottom" id="wmX-3x-fY7"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="lblPermitDescription" destination="3zy-an-Xp1" id="Sse-i8-Cnx"/>
+                <outlet property="viwDot" destination="m6V-Je-32s" id="nYE-5i-ghp"/>
+                <outlet property="viwMain" destination="aph-81-lbV" id="fN7-4X-MUb"/>
+            </connections>
+            <point key="canvasLocation" x="133" y="113"/>
+        </tableViewCell>
+    </objects>
+</document>
